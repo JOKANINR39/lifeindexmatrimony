@@ -15,10 +15,10 @@ if ($result->num_rows > 0) {
 
     // ✅ Check approval status before allowing login
     if ($row['status'] == 'pending') {
-      echo "<script>alert('Your profile is under admin review. Please wait for approval.');window.location='login.php';</script>";
+      echo "<script>alert('Your profile is under admin review. Please wait for approval.');window.location='index.html';</script>";
       exit();
     } elseif ($row['status'] == 'rejected') {
-      echo "<script>alert('Your profile has been rejected by the admin. Please contact support.');window.location='login.php';</script>";
+      echo "<script>alert('Your profile has been rejected by the admin. Please contact support.');window.location='index.html';</script>";
       exit();
     }
 
@@ -29,10 +29,11 @@ if ($result->num_rows > 0) {
     exit();
 
   } else {
-    echo "<script>alert('Invalid password!');window.location='login.php';</script>";
+    echo "<script>alert('Invalid password!');window.location='index.html';</script>";
   }
 
 } else {
-  echo "<script>alert('No user found!');window.location='login.php';</script>";
+  echo "<script>alert('No user found!');window.location='index.html';</script>";
 }
 ?>
+
