@@ -482,7 +482,7 @@
         </div>
       </form>
       
-      <p class="login-link">Already have an account? <a href="login.php">Sign in here</a></p>
+      <p class="login-link">Already have an account? <a href="index.html">Sign in here</a></p>
     </div>
   </div>
 
@@ -540,4 +540,5 @@
     });
   </script>
 </body>
+
 </html>
