@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f3f3;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 60%;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px gray;
+  margin-top: 30px;
+}
+
+h2, h3 {
+  color: #004aad;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+}
+
+button {
+  background: #004aad;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.profile-card {
+  display: inline-block;
+  background: #e9eefc;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 150px;
+  text-align: center;
+}
+
+header, footer {
+  text-align: center;
+  padding: 10px;
+  background: #004aad;
+  color: white;
+}
+
+.logo {
+  height: 40px;
+  vertical-align: middle;
+}
+
+.profile-link, .logout-link {
+  float: right;
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+}
+.nav-links {
+  float: right;
+}
+
+.nav-links a {
+  margin-left: 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  background: #003380;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.nav-links a:hover {
+  background: #00225e;
+}
