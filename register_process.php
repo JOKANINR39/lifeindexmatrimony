@@ -50,7 +50,7 @@ VALUES
 if ($conn->query($sql) === TRUE) {
     echo "<script>
         alert('Registration successful! Your profile is under admin review. It will appear after approval.');
-        window.location='login.php';
+        window.location='index.html';
     </script>";
 } else {
     echo 'Error: ' . $conn->error;
@@ -58,3 +58,4 @@ if ($conn->query($sql) === TRUE) {
 
 $conn->close();
 ?>
+
